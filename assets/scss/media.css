@@ -1,0 +1,231 @@
+@media screen and (max-width: 1210px) {
+  header {
+    max-width: 604px;
+    margin-bottom: 60px;
+  }
+  header nav .nav_bar.dekstop {
+    display: none;
+  }
+  header nav .open_mobile-nav {
+    display: block !important;
+  }
+  header nav .nav_bar.mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  header nav .nav_bar.mobile .nav_bar-list {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .head {
+    flex-direction: column;
+    align-items: center;
+  }
+  .head .head_block-img {
+    margin-top: 40px;
+  }
+  .for_block {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .for_block .for_block-txt {
+    margin-bottom: 44px;
+  }
+  .advantages {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 604px;
+    width: unset;
+    padding: 80px 40px;
+  }
+  .experts {
+    max-width: 604px;
+  }
+  .experts .experts_block {
+    overflow-x: scroll;
+    justify-content: unset;
+  }
+  .about_program .about_block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about_program .about_block .about_block-program .program_info {
+    justify-content: center;
+  }
+  .program .program_lesson {
+    max-width: 604px;
+  }
+  .program .program_lesson .dekstop {
+    display: none;
+  }
+  .program .program_lesson .mobile {
+    display: block !important;
+  }
+  .waiting_program {
+    max-width: 605px;
+  }
+  .result {
+    max-width: 604px;
+  }
+  .result .result_footer {
+    flex-direction: column;
+    gap: 20px 0;
+    align-items: flex-start;
+  }
+  .howto_use {
+    max-width: 640px;
+  }
+  .credit {
+    max-width: 604px;
+  }
+  .credit .credit_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .credit .credit_block .credit_block-time {
+    margin: 40px 0;
+  }
+  footer .footer_block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .footer_block .dekstop {
+    display: none;
+  }
+  footer .footer_block .footer_contact-info {
+    align-items: center;
+  }
+  footer .footer_block .contacts {
+    margin-top: 20px;
+  }
+  footer .footer_last {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .areas {
+    max-width: 604px;
+  }
+  .areas .areas_footer .areas_footer-img {
+    margin-top: -150px;
+  }
+  .potential .potential_body .body_card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+  }
+  .potential .potential_body .body_card .card_two-item {
+    width: 100%;
+    max-width: 604px;
+  }
+  .potential .potential_body .body_card .card_two-item .card {
+    max-width: 604px;
+  }
+  .potential .potential_body .body_card .card_one-item {
+    width: 100%;
+    max-width: 604px;
+  }
+  .potential .potential_body .body_card .card_one-item img {
+    max-width: 320px;
+  }
+  .potential .potential_body .body_footer-card {
+    max-width: 604px;
+  }
+  .potential .potential_body .body_footer-card .card .card_element {
+    display: none;
+  }
+  .learn_program .learn_program-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .learn_program .learn_program-main .left_block {
+    max-width: 604px;
+  }
+  .learn_program .learn_program-main .left_block .large_block {
+    padding-bottom: 0 !important;
+  }
+  .learn_program .learn_program-main .left_block .large_block .learn_block-head {
+    padding-top: 0;
+  }
+  .learn_program .learn_program-main .left_block .learn_block {
+    min-height: 300px;
+    max-width: 604px;
+  }
+  .learn_program .learn_program-main .left_block .learn_block .learn_block-head .line {
+    max-width: 288px !important;
+  }
+  .learn_program .learn_program-main .left_block .learn_block .learn_block-main {
+    padding-bottom: 0 !important;
+  }
+  .learn_program .learn_program-main .left_block .learn_block .main_lesson {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .learn_program .learn_program-main .left_block .learn_block .main_lesson h3 {
+    padding-right: 0;
+  }
+  .learn_program .learn_program-main .left_block .learn_block .main_lesson h3::after {
+    display: none;
+  }
+  .learn_program .learn_program-main .left_block .learn_block .large {
+    padding-top: 0 !important;
+  }
+  .learn_program .learn_program-main .left_block .learn_block-two {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  .learn_program .learn_program-main .left_block .learn_block-two .learn_block {
+    max-width: 604px;
+    background: radial-gradient(100% 586.65% at 0% 100%, #504740 0%, #5c4359 16.36%, #382b3f 42.19%, #171717 100%);
+  }
+  .learn_program .learn_program-main .left_block .learn_block-two .learn_block .learn_block-head .line {
+    max-width: 288px;
+  }
+  .learn_program .learn_program-main .right_block {
+    max-width: 604px;
+    margin-top: 20px;
+  }
+  .learn_program .learn_program-main .right_block .large_block .learn_block-main {
+    padding-bottom: 0 !important;
+  }
+  .learn_program .learn_program-main .right_block .learn_block {
+    min-height: 300px;
+    background: radial-gradient(100% 586.65% at 0% 100%, #504740 0%, #5c4359 16.36%, #382b3f 42.19%, #171717 100%);
+    max-width: 604px;
+    padding: 20px;
+  }
+  .learn_program .learn_program-main .right_block .learn_block .learn_block-head .line {
+    max-width: 288px;
+  }
+  .prices {
+    padding: 0 10px;
+  }
+  .prices .prices_block {
+    flex-direction: column;
+    gap: 20px 0;
+    max-width: 604px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .prices .prices_block .active {
+    transform: translateY(0);
+  }
+  .reviews .reviews_block {
+    grid-template-columns: repeat(3, 300px);
+  }
+}
