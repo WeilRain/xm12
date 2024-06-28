@@ -222,10 +222,15 @@
     width: 100%;
     margin: 0 auto;
   }
+  .prices .prices_block .prices_card {
+    width: unset;
+  }
   .prices .prices_block .active {
     transform: translateY(0);
   }
   .reviews .reviews_block {
     grid-template-columns: repeat(3, 300px);
+    overflow-x: scroll;
+    justify-content: unset;
   }
 }

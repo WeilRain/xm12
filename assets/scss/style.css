@@ -39,7 +39,7 @@ p {
 }
 
 header {
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -88,7 +88,7 @@ header nav .open_mobile-nav {
 }
 
 .head {
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -223,7 +223,7 @@ header nav .open_mobile-nav {
 }
 
 .learn_program {
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 120px auto;
 }
 
@@ -414,11 +414,26 @@ header nav .open_mobile-nav {
   padding-bottom: 170px;
 }
 
+.learn_program .learn_program-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.learn_program .learn_program-footer .btn_1 {
+  outline: none;
+  border-radius: 10px;
+  padding: 12px 44px 12px 44px;
+  color: #fff;
+  border: none;
+  background-color: #8b57c2;
+}
+
 .for_block {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 120px auto;
   width: 100%;
   gap: 0 44px;
@@ -477,7 +492,7 @@ header nav .open_mobile-nav {
 
 .advantages {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 0 auto;
   min-height: 515px;
   height: 100%;
@@ -539,7 +554,7 @@ header nav .open_mobile-nav {
 }
 
 .whose {
-  max-width: 1440px;
+  max-width: 1228px;
   width: 100%;
   margin: 0 auto 120px auto;
   position: relative;
@@ -610,7 +625,7 @@ header nav .open_mobile-nav {
 }
 
 .experts {
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 0 auto 120px auto;
   width: 100%;
 }
@@ -688,7 +703,7 @@ header nav .open_mobile-nav {
 }
 
 .waiting_program {
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 120px auto;
 }
 
@@ -1104,7 +1119,7 @@ header nav .open_mobile-nav {
 }
 
 .howto_use {
-  max-width: 1440px;
+  max-width: 1228px;
   margin: 0 auto 120px auto;
 }
 
@@ -1176,6 +1191,11 @@ header nav .open_mobile-nav {
   z-index: -1;
 }
 
+.prices {
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
 .prices .prices_head {
   text-align: center;
 }
@@ -1205,6 +1225,7 @@ header nav .open_mobile-nav {
   padding: 42px 44px 42px 44px;
   border-radius: 20px;
   display: flex;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -1273,9 +1294,9 @@ header nav .open_mobile-nav {
 
 .reviews .reviews_block {
   display: grid;
-  grid-template-columns: repeat(3, 532px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  overflow-x: scroll;
+  justify-content: end;
 }
 
 .reviews .reviews_block .reviews_card {
@@ -1320,7 +1341,7 @@ header nav .open_mobile-nav {
 
 .credit {
   background-color: #212121;
-  max-width: 1440px;
+  max-width: 1228px;
   border-radius: 32px;
   margin: 0 auto 120px auto;
 }

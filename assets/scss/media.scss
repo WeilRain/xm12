@@ -336,6 +336,7 @@
             width: 100%;
             margin: 0 auto;
             .prices_card {
+                width: unset;
             }
             .active {
                 transform: translateY(0);
@@ -345,6 +346,8 @@
     .reviews {
         .reviews_block {
             grid-template-columns: repeat(3, 300px);
+            overflow-x: scroll;
+            justify-content: unset;
         }
     }
 }

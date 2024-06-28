@@ -36,7 +36,7 @@ p {
     unicode-bidi: isolate;
 }
 header {
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 0 auto;
     margin-bottom: 72px;
     nav {
@@ -84,7 +84,7 @@ header {
     }
 }
 .head {
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 0 auto;
 
     display: flex;
@@ -213,7 +213,7 @@ header {
     }
 }
 .learn_program {
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 120px auto;
     .learn_program-head {
         display: flex;
@@ -387,12 +387,25 @@ header {
             }
         }
     }
+    .learn_program-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        .btn_1 {
+            outline: none;
+            border-radius: 10px;
+            padding: 12px 44px 12px 44px;
+            color: #fff;
+            border: none;
+            background-color: rgba(139, 87, 194, 1);
+        }
+    }
 }
 .for_block {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 120px auto;
     width: 100%;
     gap: 0 44px;
@@ -441,7 +454,7 @@ header {
 }
 .advantages {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 0 auto;
     min-height: 515px;
     height: 100%;
@@ -496,7 +509,7 @@ header {
 }
 
 .whose {
-    max-width: 1440px;
+    max-width: 1228px;
     width: 100%;
     margin: 0 auto 120px auto;
     position: relative;
@@ -563,7 +576,7 @@ header {
 }
 
 .experts {
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 0 auto 120px auto;
     width: 100%;
     .experts_header {
@@ -631,7 +644,7 @@ header {
 }
 
 .waiting_program {
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 120px auto;
     .waiting_program-header {
         text-align: center;
@@ -1004,7 +1017,7 @@ header {
     }
 }
 .howto_use {
-    max-width: 1440px;
+    max-width: 1228px;
     margin: 0 auto 120px auto;
 
     .howto_use-header {
@@ -1078,6 +1091,8 @@ header {
 }
 
 .prices {
+    max-width: 1228px;
+    margin: 0 auto;
     .prices_head {
         text-align: center;
         & h2 {
@@ -1102,6 +1117,8 @@ header {
             padding: 42px 44px 42px 44px;
             border-radius: 20px;
             display: flex;
+            width: 100%;
+
             flex-direction: column;
             .card_head {
                 color: #fff;
@@ -1163,9 +1180,10 @@ header {
     }
     .reviews_block {
         display: grid;
-        grid-template-columns: repeat(3, 532px);
+        grid-template-columns: repeat(3, 1fr);
         gap: 24px;
-        overflow-x: scroll;
+        justify-content: end;
+ 
         .reviews_card {
             border-radius: 28px;
             background: linear-gradient(180deg, rgba(135, 113, 237, 0.25) 0%, rgba(135, 113, 237, 0) 100%),
@@ -1204,7 +1222,7 @@ header {
 
 .credit {
     background-color: rgba(33, 33, 33, 1);
-    max-width: 1440px;
+    max-width: 1228px;
     border-radius: 32px;
     margin: 0 auto 120px auto;
     .credit_block {
